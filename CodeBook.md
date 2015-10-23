@@ -17,3 +17,6 @@ It contains the following columns:
 * Mean Grav Accel X: For each measurement, the X component of the vector of the gravity acceleration mean is included.
 * Mean Grav Accel Y: For each measurement, the Y component of the vector of the gravity acceleration mean is included.
 * Mean Grav Accel Z: For each measurement, the Z component of the vector of the gravity acceleration mean is included.
+* Stand Grav Accel X: For each measurement, the X component of the vector of the gravity acceleration standard deviation is included.
+* Stand Grav Accel Y: For each measurement, the Y component of the vector of the gravity acceleration standard deviation is included.
+* Stand Grav Accel Z: For each measurement, the Z component of the vector of the gravity acceleration standard deviation is included.
