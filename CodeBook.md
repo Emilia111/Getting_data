@@ -36,6 +36,8 @@ The data given in the columns that are not Activities and Subject are normalized
 * Stand Grav Accel Mag: For each measurement, the magnitude of the vector of the gravity acceleration standard deviation is included.
 * Mean Body Ang Vel Mag: For each measurement, the magnitude of the vector of the body angular velocity mean is included.
 * Stand Body Ang Vel Mag: For each measurement, the magnitude of the vector of the body angular velocity standard deviation is included.
+asdasdasd
+
 ### 2nd data set
 In step 5 of the instructions a tidy data set is asked. This has been built as a data frame called dataset2 in the script. Then it has been written in a txt file called dataset2.txt
 Although the names of the columns is the same that in the previous dataset, they mean something different. The columns that are not neither Activites nor Subject, have the average for each activity and each subject. That is why there are only 180 rows: 30 people times 6 activities.
