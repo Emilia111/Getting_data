@@ -10,7 +10,7 @@ This dataset has been built as a data frame called dataset1 in the script.
 #### Units
 The data given in the columns that are not Activities and Subject are normalized and bounded within [-1,1]
 ####Columns:
-* Activities: The measurement have been performed over five different activities. In this column I include, for each measurement, the name of the activity.
+* Activity: The measurement have been performed over five different activities. In this column I include, for each measurement, the name of the activity.
 * Subject: In the experiment 30 people participate. In this column it is sayd who of this 30 people carries the device to perform the measurement (each person is labelled with a number)
 * Mean Body Accel X: For each measurement, the X component of the vector of the body acceleration mean is included.
 * Mean Body Accel Y: For each measurement, the Y component of the vector of the body acceleration mean is included.
