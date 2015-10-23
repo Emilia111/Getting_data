@@ -4,7 +4,7 @@ The run_analysis.R script works reading the data of the folder "UCI HAR Dataset"
 For the run_analysis.R script to run properly, it must be located in the same folder than the folder with the unzipped data "UCI HAR Dataset".
 This script is divided into the five steps the instructions suggested (at the beginning of each step the code is commented and explained). It is important to say that the steps have not exactly been followed, because the aim was to complete the assignment and generate two tidy datasets. Only one of them is exported as a txt file.
 #### 1st step:
-To merge the data of test and train, first, I have read the data of the corresponding folders (no the ones in "" , as they are not needed for the assignment) and then, I have used rbind to join the rows.
+To merge the data of test and train, first, I have read the data of the corresponding folders (no the ones in "Inertial Signals", as they are not needed for the assignment) and then, I have used rbind to join the rows.
 #### 2nd step:
 The instructions asked to include in the tidy dataset only the measurements of the mean and standar deviation. As they asked for measurements, I have included only the variables that are actually measures: acceleration of gravity, acceleration of the body and angular velocity of the body (its vector components and the magnitude). Neither the Jerks nor its Fourier transformations. That is why the table of X_data.txt is reduced to just 24 columns: the multiplication of the vector components and magnitude times the three variables times the mean and the standard deviation. In the code this dataframe is called measurecut.
 #### 3rd step:
