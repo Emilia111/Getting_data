@@ -20,3 +20,15 @@ It contains the following columns:
 * Stand Grav Accel X: For each measurement, the X component of the vector of the gravity acceleration standard deviation is included.
 * Stand Grav Accel Y: For each measurement, the Y component of the vector of the gravity acceleration standard deviation is included.
 * Stand Grav Accel Z: For each measurement, the Z component of the vector of the gravity acceleration standard deviation is included.
+* Mean Body Ang Vel X: For each measurement, the X component of the vector of the body angular velocity mean is included.
+* Mean Body Ang Vel Y: For each measurement, the Y component of the vector of the body angular velocity mean is included.
+* Mean Body Ang Vel Z: For each measurement, the Z component of the vector of the body angular velocity mean is included.
+* Stand Body Ang Vel X: For each measurement, the X component of the vector of the body angular velocity standard deviation is included.
+* Stand Body Ang Vel Y: For each measurement, the Y component of the vector of the body angular velocity standard deviation is included.
+* Stand Body Ang Vel Z: For each measurement, the Z component of the vector of the body angular velocity standard deviation is included.
+* Mean Body Accel Mag: For each measurement, the magnitude of the vector of the body acceleration mean is included.
+* Stand Body Accel Mag: For each measurement, the magnitude of the vector of the body acceleration standard deviation is included.
+* Mean Grav Accel Mag: For each measurement, the magnitude of the vector of the gravity acceleration mean is included.
+* Stand Grav Accel Mag: For each measurement, the magnitude of the vector of the gravity acceleration standard deviation is included.
+* Mean Body Ang Vel Mag: For each measurement, the magnitude of the vector of the body angular velocity mean is included.
+* Stand Body Ang Vel Mag: For each measurement, the magnitude of the vector of the body angular velocity standard deviation is included.
