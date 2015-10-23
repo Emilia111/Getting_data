@@ -5,7 +5,8 @@ With this script two different datasets are created. One of them is also written
 Althouth they have some features in common let me explain them separately.
 ### 1st data set
 In step 4 of the instructions a tidy data set is asked. This has been built as a data frame called dataset1 in the script.
-It contains the following columns:
+#### The data given in the columns that are not Activities and Subject are normalized and bounded within [-1,1]
+####It contains the following columns:
 * Activities: The measurement have been performed over five different activities. In this column I include, for each measurement, the name of the activity.
 * Subject: In the experiment 30 people participate. In this column it is sayd who of this 30 people carries the device to perform the measurement (each person is labelled with a number)
 * Mean Body Accel X: For each measurement, the X component of the vector of the body acceleration mean is included.
@@ -32,3 +33,6 @@ It contains the following columns:
 * Stand Grav Accel Mag: For each measurement, the magnitude of the vector of the gravity acceleration standard deviation is included.
 * Mean Body Ang Vel Mag: For each measurement, the magnitude of the vector of the body angular velocity mean is included.
 * Stand Body Ang Vel Mag: For each measurement, the magnitude of the vector of the body angular velocity standard deviation is included.
+### 2nd data set
+In step 5 of the instructions a tidy data set is asked. This has been built as a data frame called dataset2 in the script. Then it has been written in a txt file called dataset2.txt
+Although the names of the columns is the same that in the previous dataset, they mean something different. The columns that are not neither Activites nor Subject, have the average for each activity and each subject. That is why there are only 180 rows: 30 people times 6 activities.
