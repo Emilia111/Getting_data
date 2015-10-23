@@ -39,4 +39,5 @@ The data given in the columns that are not Activities and Subject are normalized
 
 ### 2nd data set
 This dataset has been built as a dataframe called dataset2 in the script. This script also writes it in a txt file called dataset2.txt
-Although the names of the columns are the same that in the previous dataset, they mean something different. The columns that are not neither Activites nor Subject, have the average for each activity and each subject. That is why there are only 180 rows: 30 people times 6 activities.
+Although the names of the columns are the same as in the previous dataset, they mean something different. The columns that are not neither Activites nor Subject, are the average for each activity and each subject. That is why there are only 180 rows: 30 people times 6 activities.
+There is no need to explain again the variables, they are the same as before but now they measure the average for each activity and each subject. Before the measured its value for each activity and each subject.
