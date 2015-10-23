@@ -4,9 +4,9 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 ##Code Book
 With this script two different datasets are created. One of them is also written in a txt file called dataset2.txt.
-Althouth they have some features in common let me explain them separately.
+Althouth they have some features in common they will be explained in different sections.
 ### 1st data set
-In step 4 of the instructions a tidy data set is asked. This has been built as a data frame called dataset1 in the script.
+This dataset has been built as a data frame called dataset1 in the script.
 #### Units
 The data given in the columns that are not Activities and Subject are normalized and bounded within [-1,1]
 ####Columns:
@@ -36,8 +36,7 @@ The data given in the columns that are not Activities and Subject are normalized
 * Stand Grav Accel Mag: For each measurement, the magnitude of the vector of the gravity acceleration standard deviation is included.
 * Mean Body Ang Vel Mag: For each measurement, the magnitude of the vector of the body angular velocity mean is included.
 * Stand Body Ang Vel Mag: For each measurement, the magnitude of the vector of the body angular velocity standard deviation is included.
-asdasdasd
 
 ### 2nd data set
-In step 5 of the instructions a tidy data set is asked. This has been built as a data frame called dataset2 in the script. Then it has been written in a txt file called dataset2.txt
-Although the names of the columns is the same that in the previous dataset, they mean something different. The columns that are not neither Activites nor Subject, have the average for each activity and each subject. That is why there are only 180 rows: 30 people times 6 activities.
+This dataset has been built as a dataframe called dataset2 in the script. This script also writes it in a txt file called dataset2.txt
+Although the names of the columns are the same that in the previous dataset, they mean something different. The columns that are not neither Activites nor Subject, have the average for each activity and each subject. That is why there are only 180 rows: 30 people times 6 activities.
