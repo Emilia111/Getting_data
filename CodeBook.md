@@ -7,4 +7,13 @@ Althouth they have some features in common let me explain them separately.
 In step 4 of the instructions a tidy data set is asked. This has been built as a data frame called dataset1 in the script.
 It contains the following columns:
 * Activities: The measurement have been performed over five different activities. In this column I include, for each measurement, the name of the activity.
-* Subject: There are 30 people 
+* Subject: In the experiment 30 people participate. In this column it is sayd who of this 30 people carries the device to perform the measurement (each person is labelled with a number)
+* Mean Body Accel X: For each measurement, the X component of the vector of the body acceleration mean is included.
+* Mean Body Accel Y: For each measurement, the Y component of the vector of the body acceleration mean is included.
+* Mean Body Accel Z: For each measurement, the Z component of the vector of the body acceleration mean is included.
+* Stand Body Accel X: For each measurement, the X component of the vector of the body acceleration standard deviation is included.
+* Stand Body Accel Y: For each measurement, the Y component of the vector of the body acceleration standard deviation is included.
+* Stand Body Accel Z: For each measurement, the Z component of the vector of the body acceleration standard deviation is included.
+* Mean Grav Accel X: For each measurement, the X component of the vector of the gravity acceleration mean is included.
+* Mean Grav Accel Y: For each measurement, the Y component of the vector of the gravity acceleration mean is included.
+* Mean Grav Accel Z: For each measurement, the Z component of the vector of the gravity acceleration mean is included.
