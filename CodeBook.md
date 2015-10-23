@@ -1,12 +1,15 @@
 ##Study Design
-The data was collected from 
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 ##Code Book
 With this script two different datasets are created. One of them is also written in a txt file called dataset2.txt.
 Althouth they have some features in common let me explain them separately.
 ### 1st data set
 In step 4 of the instructions a tidy data set is asked. This has been built as a data frame called dataset1 in the script.
-#### The data given in the columns that are not Activities and Subject are normalized and bounded within [-1,1]
-####It contains the following columns:
+#### Units
+The data given in the columns that are not Activities and Subject are normalized and bounded within [-1,1]
+####Columns:
 * Activities: The measurement have been performed over five different activities. In this column I include, for each measurement, the name of the activity.
 * Subject: In the experiment 30 people participate. In this column it is sayd who of this 30 people carries the device to perform the measurement (each person is labelled with a number)
 * Mean Body Accel X: For each measurement, the X component of the vector of the body acceleration mean is included.
